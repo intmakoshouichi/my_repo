@@ -1,0 +1,10 @@
+<body onKeyDown=K=event.keyCode-38><script>function T(){h=100,B=Math.floor(Math
+.random(l=8,p=-1)*16+4)}function Y(){for(S="",i=104;i--;i%8||(S+="<br>"))n=N[i]
+,S+=n?~n?"<a style=color:#"+(249*n)+">Åú</a>":"Å°":"ÅQ";document.body.innerHTML
+=S;N=[K-50?h-=M[h+l-K]|M[h-K]?0:K:M[h+p]?0:(x=p,p=-l,l=x)];for(K=0;++i<113;N[i]
+=M[i]);N[h]=B>>2;N[h+l]=B%4+1;if(!(++e%10))if(h-=8,M[h]+M[h+l])for(M=N,T(f=0);f
+=!f;){for(i=112;i--;g=C[i]=0);for(;g=!g;)for(i=0;i<103;i++)if(n=M[i+8],!M[i]&&n
+)M[i]=n,M[i+8]=g=0;for(;i--;){n=c=0;for(E=[i];M[i]>0&n>=c;c++)for(j=4;j--;t>102
+|C[t]|M[i]-M[t]||(C[t]=E[++n]=t))x=p,p=-l,l=x,t=E[c]+p;if(n>3)for(;n;)f=M[E[n--
+]]=0}}M[100]||setTimeout(Y,49)}for(M=N=[C=[i=113]];--i;M[i-1]=i%8>1&i>7?0:-1);Y
+(T(e=K=0));</script>
